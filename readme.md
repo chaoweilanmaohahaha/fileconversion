@@ -3,3 +3,7 @@
 还是直接看一下官网上对于这个解析过程的要求吧
 
 要解析PDF文件，您需要至少使用两个类：PDFParser和PDFDocument。这两个对象相互关联。 PDFParser从文件中提取数据并PDFDocument存储它。您还需要 PDFPageInterpreter处理页面内容并将PDFDevice其翻译为您需要的任何内容。 PDFResourceManager用于存储共享资源，如字体或图像。
+
+
+
+要将pdf文件提取的内容存储到word中需要下载python-docx模块来辅助存储
